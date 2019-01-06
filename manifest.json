@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "QRL",
+  "version": "0.1",
+  "author": "Christian Amenos",
+
+  "description": "Generates a QR code to be used by smartphones for easier and faster access without the need of additional accounts, saving your privacy.",
+  "homepage_url": "https://github.com/christianamenos/qr-extension-sharer",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/border-48.png",
+      "32": "icons/border-48.png",
+      "64": "icons/border-48.png"
+    },
+    "browser_style": true,
+    "default_title": "Generate QR to current url",
+    "default_popup": "html/extension.html"
+  }
+}
