@@ -13,12 +13,11 @@
 
   "browser_action": {
     "default_icon": {
-      "16": "icons/border-48.png",
-      "32": "icons/border-48.png",
-      "64": "icons/border-48.png"
+      "16": "icons/qrl_icon_16.png",
+      "32": "icons/qrl_icon_32.png",
+      "64": "icons/qrl_icon_64.png"
     },
-    "browser_style": true,
-    "default_title": "Generate QR to current url",
+    "default_title": "Generate QR of the current url",
     "default_popup": "html/extension.html"
   }
 }

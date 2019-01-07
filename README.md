@@ -49,8 +49,18 @@ undefined value, which won't allow us to access to any information. Instead we
 can use the tabs.query method as you can see in the `js/extension.js` file in
 this same project.
 
+#### Showing HTML
+In the manifest, we are adding `default_popup` option pointing to the html file
+we want to load when the action button is pressed. The path is relative to the
+manifest file location.
+
+#### Adding Styling and JS logic
+We can manage `link`, `script` and `style` tags as we would do in a standard
+website. In this case we are just using link and style tags to point to the
+specific files, specifying their relative path from the html file location.
+
 ## Testing
-In order to try the extension... `TBD`
+Follow the following steps depending on the browser you are targeting.
 
 ### Firefox
 Open [about:debugging](about:debugging) in your browser, or click at `Add-ons`
