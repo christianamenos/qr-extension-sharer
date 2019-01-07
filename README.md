@@ -84,12 +84,13 @@ Once this is done, lcick the `Load Unpacked` button and select your directory.
 
 
 ## Publishing
+* [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/Distribution)
+* [Chrome](https://developer.chrome.com/webstore/publish)
 
-### Firefox
-`TBD`
-
-### Chrome
-`TBD`
+## Available languages
+* English
+* Spanish
+* Catalan
 
 ## License
 MIT License
