@@ -33,8 +33,21 @@ When developing an extension, the first thing we will need to create is a
 your extension and also to specify the needed permissions and script files that
 will be used.
 
-#### Background
+#### Permissions
+For this extension we only need the `tabs` permission in order to access the
+tabs information. In general, in order to access the current tab url, we would
+use a code like the following one:
 
+```js
+browser.tabs.getCurrent().then(function(tab) {
+  //Use tab object to get url
+});
+```
+
+But this is limited to non-popup and non-background scripts. Otherwise we get an
+undefined value, which won't allow us to access to any information. Instead we
+can use the tabs.query method as you can see in the `js/extension.js` file in
+this same project.
 
 ## Testing
 In order to try the extension... `TBD`
@@ -65,7 +78,14 @@ Once this is done, lcick the `Load Unpacked` button and select your directory.
 ### Chrome
 `TBD`
 
+## License
+MIT License
+
+## Contact
+* Twitter: [@christianamenos](https://twitter.com/christianamenos)
+* Website: [https://christianamenos.com](https://christianamenos.com)
+
 ## Resources
 * [Mozilla documenbtation about Web Extensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
 * [How to do a chrome extension](https://medium.freecodecamp.org/how-to-create-a-chrome-extension-part-1-ad2a3a77541)
-*
+* [QR generator library](https://github.com/davidshimjs/qrcodejs)

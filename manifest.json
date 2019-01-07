@@ -8,7 +8,7 @@
   "homepage_url": "https://github.com/christianamenos/qr-extension-sharer",
 
   "permissions": [
-    "activeTab"
+    "tabs"
   ],
 
   "browser_action": {
