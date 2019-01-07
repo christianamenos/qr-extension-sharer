@@ -80,3 +80,9 @@ body > h1 {
   height:150px;
   margin-bottom:1em;
 }
+
+[data-i18n] {
+	background-color:#f0f0f0;
+	display:block;
+	height:1em;
+}

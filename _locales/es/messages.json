@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message":"QRL",
+    "description":"Name of the extension"
+  },
+  "extensionDescription" : {
+    "message": "Genera un código QR para su lectura desde smarphones permitiendo un acceso más rápido y fácil, sin la necesidad de escribir, usar cuentas y manteniendo tu privacidad.",
+    "description":"Description of the extension"
+  },
+  "defaultTitle": {
+    "message": "Generar QR de la url actual",
+    "description": "Text that appears on hovering the icon of the extension"
+  },
+  "popupHeader": {
+    "message": "Código:",
+    "description": "Message in top of the QR in the popup"
+  },
+  "popupText": {
+    "message": "Usa un lector de QR en tu smartphone (como <a href=\"https://play.google.com/store/apps/details?id=com.montfoc.qrpanda\" target=\"_blank\">QR Panda</a>) para poder obtener la página actual.",
+    "description": "Text shown under the QR code, at the bottom in the popup"
+  }
+
+}

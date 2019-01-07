@@ -1,6 +1,9 @@
 # QRL: Generate QR from the current url
 
-This is a cross browser extension that resolves the problem to watch the site you are visiting in your desktop browser to you mobile without the need to have any sync tool. This way, whenever you want to keep surfing a website in the mobile you will do it faster and easier. Happy surfing!
+This is a cross browser extension that resolves the problem to watch the site
+you are visiting in your desktop browser to you mobile without the need to have
+any sync tool. This way, whenever you want to keep surfing a website in the
+mobile you will do it faster and easier. Happy surfing!
 
 # Development
 
@@ -97,5 +100,5 @@ MIT License
 
 ## Resources
 * [Mozilla documenbtation about Web Extensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
-* [How to do a chrome extension](https://medium.freecodecamp.org/how-to-create-a-chrome-extension-part-1-ad2a3a77541)
-* [QR generator library](https://github.com/davidshimjs/qrcodejs)
+* [QRCode library](https://github.com/davidshimjs/qrcodejs)
+* [i18n](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization)
